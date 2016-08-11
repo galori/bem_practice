@@ -1,0 +1,33 @@
+.yes_no_toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .yes_no_toggle__label {
+    position: relative;
+    margin: 0 10px; }
+  .yes_no_toggle__option {
+    font-weight: bold;
+    color: #4A4A4A; }
+  .yes_no_toggle__checkbox {
+    display: none; }
+  .yes_no_toggle__widget {
+    background-color: #D8D8D8;
+    border: 1px #979797 solid;
+    border-radius: 25px;
+    width: 63px;
+    height: 31px;
+    display: block; }
+  .yes_no_toggle__widget:after {
+    background-color: #979797;
+    border-radius: 18px;
+    position: absolute;
+    left: 33px;
+    top: 1px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    content: ''; }
+  .yes_no_toggle__checkbox:checked + .yes_no_toggle__widget:after {
+    left: 0; }
+
+/*# sourceMappingURL=toggle.css.map */

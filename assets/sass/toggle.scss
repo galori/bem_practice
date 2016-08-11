@@ -1,0 +1,46 @@
+@import 'globals';
+
+.yes_no_toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__label {
+    position: relative;
+    margin: 0 10px;
+  }
+
+  &__option {
+    font-weight: bold;
+    color: $medium-grey-font-color;
+  }
+
+  &__checkbox {
+    display: none;
+  }
+
+  &__widget {
+    background-color: #D8D8D8;
+    border: 1px #979797 solid;
+    border-radius: 25px;
+    width: 63px;
+    height: 31px;
+    display: block;
+  }
+
+  &__widget:after {
+    background-color: #979797;
+    border-radius: 18px;
+    position: absolute;
+    left: 33px;
+    top: 1px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    content: '';
+  }
+
+  &__checkbox:checked + &__widget:after {
+    left: 0;
+  }
+}

@@ -1,0 +1,36 @@
+.button {
+  padding: 10px 68px;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block; }
+
+.button--light {
+  border: 1px solid #979797;
+  background-color: #d9d9d9;
+  color: #575757; }
+
+.button--dark {
+  border: 1px solid #4A4A4A;
+  background-color: #4A4A4A;
+  color: white; }
+
+.button--white {
+  border: 1px solid white;
+  background-color: white;
+  color: black; }
+
+.button--medium-grey {
+  background-color: #D8D8D8;
+  border: 1px solid #D8D8D8;
+  color: black;
+  font-weight: bold;
+  padding: 6px 30px; }
+
+.button--medium-grey-active {
+  border: 1px solid #4A4A4A;
+  background-color: #4A4A4A;
+  color: white; }
+
+/*# sourceMappingURL=button.css.map */

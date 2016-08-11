@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>BEM</title>
+  <link rel="stylesheet" href="static/css/full_screen.css">
+  <link rel="stylesheet" href="static/css/button.css">
+  <link rel="stylesheet" href="static/css/wall.css">
+  <link rel="stylesheet" href="static/css/subnav.css">
+  <link rel="stylesheet" href="static/css/global.css">
+  <link rel="stylesheet" href="static/css/toggle.css">
+  <link rel="stylesheet" href="static/css/poster.css">
+  <link rel="stylesheet" href="static/css/page.css">
+</head>
+
+<body class="page">
+
+<div class="page__container">
+  <div id="invite-friends-view" class="full-screen">
+    <header class="full-screen__header">
+      <h2 class="title">Invite Friends</h2>
+    </header>
+
+    <section class="full-screen__content">
+      <ul class="subnav">
+        <li class="subnav__list-item subnav__list-item--active"><a href="#" class="subnav__link">Email</a></li>
+        <li class="subnav__list-item"><a href="#" class="subnav__link">Email Service</a></li>
+        <li class="subnav__list-item"><a href="#" class="subnav__link">Facebook</a></li>
+        <li class="subnav__list-item"><a href="#" class="subnav__link">Connections</a></li>
+      </ul>
+
+
+      <h3 class="title">Select Service</h3>
+
+      <section class="wall">
+        <section class="poster wall__posting">
+          <form class="poster__item poster__wrapper" action="/producer/setup/invite_friends">
+            <label class="poster__item poster__title" for="book_emails">Invite via Email</label>
+            <textarea class="poster__item poster__component poster__textarea" placeholder="Enter Email Addresses (separate with commas)" name="book[emails]" id="book_emails"></textarea>
+            <input type="submit" name="commit" value="Add Friends" class="button button--dark"/>
+          </form>
+        </section>
+
+        <section class="poster wall__posting">
+          <h4 class="poster__item">Import Friend List from File</h4>
+          <p class="poster__item poster__text">
+            Format your file (using a program such as Microsoft Excel) in two separate columns by name and email.
+            Note: You may invite up to 750 guests. Any entries after 750 will not be added to your guest list.
+            Please do not add any emails that contain hyperlinks, quotations, accent marks, plus signs or any related
+            special characters
+            which will not allow the emails to be uploaded successfully.
+          </p>
+          <img class="poster__item" src="/static/images/sample-csv_406x115.png"/>
+          <p class="poster__item poster__notice">Save or export your file as .csv before uploading</p>
+
+          <label for="upload-list" class="button button--dark">Upload File</label>
+          <input type="file" name="photo" id="upload-list" class="poster__upload_file_field"/>
+
+
+        </section>
+
+        <section class="poster wall__posting">
+          <h4 class="poster__item">Link</h4>
+          <a class="poster__item poster__strong" href="http://link.com/fulllink">http://link.com/fulllink</a>
+          <p class="poster__item poster__text">
+            Allow for new users to invite other others
+          </p>
+          <div class="yes_no_toggle poster__item">
+            <span class="yes_no_toggle__option">Yes</span>
+            <label class="yes_no_toggle__label" for="allow_invite">
+              <input class="yes_no_toggle__checkbox" type="checkbox" name="allow_invite" id="allow_invite">
+              <span class="yes_no_toggle__widget"></span>
+            </label>
+            <span class="yes_no_toggle__option">No</span>
+          </div>
+        </section>
+
+      </section>
+
+    </section>
+
+  </div>
+
+
+</div>
+
+</body>
+</html>

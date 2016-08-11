@@ -1,0 +1,23 @@
+.subnav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #6A6A6A;
+  margin: 1em 0 1.5em 0;
+  padding: 0 87px 1em 87px; }
+  .subnav__list-item {
+    list-style: none;
+    display: inline-block;
+    border-radius: 17px;
+    padding: 5px 40px; }
+  .subnav__link {
+    text-decoration: none;
+    color: #606060;
+    font-size: 15px;
+    white-space: nowrap; }
+  .subnav__list-item--active {
+    background-color: #6A6A6A; }
+    .subnav__list-item--active .subnav__link {
+      color: white; }
+
+/*# sourceMappingURL=subnav.css.map */

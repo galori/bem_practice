@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.page {
+  min-width: 800px; }
+  .page__container {
+    font-family: arial;
+    color: #4A4A4A;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+/*# sourceMappingURL=page.css.map */

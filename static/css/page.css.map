@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,CAAE;EAAE,OAAO,EAAE,CAAC;EAAE,MAAM,EAAE,CAAC;;AAGzB,KAAM;EAEJ,SAAS,EAAE,KAAK;EAEhB,gBAAa;IAEX,WAAW,EAAE,KAAK;IAGlB,KAAK,ECZgB,OAAO;IDe5B,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IAGZ,cAAc,EAAE,MAAM;IACtB,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,MAAM;IACvB,WAAW,EAAE,MAAM",
+"sources": ["../../assets/sass/page.scss","../../assets/sass/globals.scss"],
+"names": [],
+"file": "page.css"
+}

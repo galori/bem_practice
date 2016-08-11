@@ -1,0 +1,20 @@
+.wall {
+
+  display: flex;
+  width: 100%;
+  margin-top: 2em;
+
+  &__posting {
+
+    width: calc(100% / 3);
+    height: 100%;
+    border-right: 1px solid #979797;
+    text-align: center;
+    padding: 37px;
+
+    &:last-child {
+      border-right: none;
+    }
+
+  }
+}

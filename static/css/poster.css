@@ -1,0 +1,30 @@
+.poster {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+  .poster__title {
+    font-weight: bold; }
+  .poster__item {
+    margin-bottom: 1em;
+    width: 100%; }
+  .poster__textarea {
+    height: 9em;
+    padding: 7px;
+    color: #878484; }
+  .poster__notice {
+    font-weight: bold;
+    font-size: 12px; }
+  .poster__text {
+    font-size: 12px; }
+  .poster__strong {
+    font-weight: bold;
+    color: #4A4A4A;
+    text-decoration: none; }
+  .poster__upload_file_field {
+    display: none; }
+  .poster__wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center; }
+
+/*# sourceMappingURL=poster.css.map */
